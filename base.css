@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 1107px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);      
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    
+}
+.menu {
+    width: 15%; 
+    background-color: rgba(206, 200, 200, 0.089);
+    padding: 10px 20px 0px;
+}
+
+nav{position:relative; right: 30px; bottom: 0px;top: 40px;}
+nav ul li {float: left; color:#ffffff; width: auto; margin: 0.8em; font-size: 1.0em; font-family: "verdana"; list-style: none;}
+nav ul li a {text-decoration: none;color:#070707;}
+nav ul li a:hover{color:#14ac00}
+
+.logo{position:relative; width: 160px; height: 20%;top: -235px;}
+.logo img{width: 99%; margin-left: 1%;}
+
+.header {
+    
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    width: 900px;
+    align-items: center;     
+}
+
+.content {
+    position: relative;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    padding: -20px;
+    width: 860px;
+    height: 400px;
+}
+.maps{
+    position:relative; 
+    right: -270px;
+    top: -195px;
+}
+.form{
+    position:relative; 
+    right: -550px;
+    top: -400px;
+    padding: auto;
+    align-content: baseline;
+}
+.footer {
+    background-color: rgba(197, 197, 197, 0.678);
+    height: 100px;
+    position: relative;
+    font-family: "arial";  
+    top: 100px;
+    width: 1107px; 
+    left: -205px;
+}
+
+.rede-sociais { 
+    position:relative; 
+    text-align: right;
+    right: -30px;
+    top: -240px;
+    width: 50px;
+    
+}
+.icon-contato {
+    position:relative; 
+    text-align: right;
+    right: -445px;
+    top: 10px;
+    width: 50px;
+    
+}
+.telefone{
+    position:relative; 
+    text-align: right;
+    right: -50px;
+    top: -85px;
+    width: 50px;
+    
+}
+.wpp{
+    position:relative; 
+    text-align: right;
+    right: -50px;
+    top: -80px;
+    width: -20px;
+    
+}
+.email{
+    position:relative; 
+    text-align: right;
+    right: -880px;
+    top: -150px;
+    width: 50px;
+    
+}
+.e-mail{
+    position:relative; 
+    text-align: right;
+    right: -55px;
+    top: -45px;
+    width: 50px;
+    
+}
